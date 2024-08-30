@@ -32,4 +32,8 @@ return require('packer').startup(function(use)
   use({'hrsh7th/cmp-nvim-lsp'})
   use('ms-jpq/chadtree', {branch = 'chad', run = 'python3 -m chadtree deps'})
   use('tmsvg/pear-tree')
+  use {
+      'nvim-lualine/lualine.nvim',
+      requires = { 'nvim-tree/nvim-web-devicons', opt = true }
+  }
 end)
