@@ -57,3 +57,5 @@ cmp.setup({
 })
 
 require('lspconfig').tsserver.setup({})
+require('lspconfig').ocamllsp.setup({})
+require('lspconfig').clangd.setup({})
