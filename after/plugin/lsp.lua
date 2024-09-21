@@ -56,6 +56,8 @@ cmp.setup({
   },
 })
 
-require('lspconfig').tsserver.setup({})
+require('lspconfig').ts_ls.setup({})
 require('lspconfig').ocamllsp.setup({})
 require('lspconfig').clangd.setup({})
+require('lspconfig').pyright.setup({})
+require('lspconfig').svelte.setup({})
