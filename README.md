@@ -8,6 +8,7 @@ A list of packages that I use:
 - [Undotree](https://github.com/mbbill/undotree)
 - [Vim-Fugitive](https://github.com/tpope/vim-fugitive)
 - [lsp-zero](https://github.com/VonHeikemen/lsp-zero.nvim?tab=readme-ov-file)
-- [CHADtree](https://github.com/ms-jpq/chadtree)
 - [pear-tree](https://github.com/tmsvg/pear-tree)
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
+- [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
+- [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
