@@ -56,10 +56,11 @@ cmp.setup({
   },
 })
 
-require('lspconfig').ts_ls.setup({})
-require('lspconfig').ocamllsp.setup({})
-require('lspconfig').clangd.setup({})
-require('lspconfig').pyright.setup({})
-require('lspconfig').svelte.setup({})
-require('lspconfig').tailwindcss.setup({})
-require('lspconfig').cssls.setup({})
+vim.lsp.enable("ocamllsp")
+vim.lsp.enable("ts_ls")
+vim.lsp.enable("clangd")
+vim.lsp.enable("pyright")
+vim.lsp.enable("svelte")
+vim.lsp.enable("tailwindcss")
+vim.lsp.enable("cssls")
+vim.lsp.enable("gopls")

@@ -30,7 +30,6 @@ return require('packer').startup(function(use)
   use({'neovim/nvim-lspconfig'})
   use({'hrsh7th/nvim-cmp'})
   use({'hrsh7th/cmp-nvim-lsp'})
-  use('ms-jpq/chadtree', {branch = 'chad', run = 'python3 -m chadtree deps'})
   use('tmsvg/pear-tree')
   use {
       'nvim-lualine/lualine.nvim',
@@ -40,4 +39,12 @@ return require('packer').startup(function(use)
       "williamboman/mason.nvim",
       "williamboman/mason-lspconfig.nvim"
   }
+  use('sphamba/smear-cursor.nvim')
+  use {
+  'nvim-tree/nvim-tree.lua',
+      requires = {
+        'nvim-tree/nvim-web-devicons', -- optional
+     },
+  }
+  use 'nvim-tree/nvim-web-devicons'
 end)
