@@ -12,3 +12,4 @@ A list of packages that I use:
 - [lualine](https://github.com/nvim-lualine/lualine.nvim)
 - [smear-cursor](https://github.com/sphamba/smear-cursor.nvim)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua)
+- [Trouble](https://github.com/folke/trouble.nvim)
