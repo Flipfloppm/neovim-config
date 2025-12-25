@@ -48,4 +48,6 @@ return require('packer').startup(function(use)
   }
   use 'nvim-tree/nvim-web-devicons'
   use ({'folke/trouble.nvim', requires = { "nvim-tree/nvim-web-devicons" }})
+  use { 'mhartington/formatter.nvim' }
+  use { 'windwp/nvim-ts-autotag' }
 end)
